@@ -40,6 +40,7 @@ public class JournalEntryControllerV2 {
         }
 
     }
+  
 
     @GetMapping("id/{myId}")
     public ResponseEntity<JournalEntry> getJournalEntryById(@PathVariable ObjectId myId){
